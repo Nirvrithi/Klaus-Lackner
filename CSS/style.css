@@ -1,0 +1,18 @@
+h1{font-size: 70px; color: #2AC181;}
+
+img{width:500px;animation: picupdown 2s linear infinite;}
+
+h2{font-size: 55px}
+
+p{font-size: 30px;}
+
+@keyframes picupdown{
+	from{
+		transform:rotateX(0deg);
+	}
+	to{
+		transform:rotateX(25deg);
+	}
+}
+
+h2::hover{background-color: black; color:white;}
